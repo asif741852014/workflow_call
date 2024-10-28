@@ -1,0 +1,8 @@
+name: b
+on:
+  workflow_call
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo " hai from workflow_call"

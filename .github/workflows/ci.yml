@@ -1,0 +1,6 @@
+name: a
+on:
+  push:
+jobs:
+  job1:
+  - uses: ./.github/workflows/a.yml
